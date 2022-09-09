@@ -614,9 +614,21 @@ h4.top {
   .reference {
     margin-top: .7rem;
   }
+#featured .skinhead {
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 15rem;
+  padding: 0;
+  gap: 1rem;
+}
 }
 
 @media screen and (max-width: 350px) {
+  html {
+  font-size: 13px;
+ }
   #main .container {
     grid-template-columns: 1fr;
     row-gap: 2rem;
